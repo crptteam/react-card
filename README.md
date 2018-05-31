@@ -4,7 +4,7 @@
 [![npm package][npm-badge]][npm]
 [![Coveralls][coveralls-badge]][coveralls]
 
-Button component.
+Card component.
 
 ## Usage
 
