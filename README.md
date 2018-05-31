@@ -4,7 +4,24 @@
 [![npm package][npm-badge]][npm]
 [![Coveralls][coveralls-badge]][coveralls]
 
-Describe react-card here.
+Button component.
+
+## Usage
+
+```javascript
+
+import { Card, CardLine } from  "@crpt/react-card";
+
+
+<Card>
+    <CardLine>Card line content.</CardLine>
+</Card>
+
+```
+
+| PropName | Описание | Пример |
+|---|---|---|
+| theme: Object | Theme object, can be found in themes directory. | &lt;Card theme={defaultTheme} /> |
 
 [build-badge]: https://img.shields.io/travis/user/repo/master.png?style=flat-square
 [build]: https://travis-ci.org/user/repo
