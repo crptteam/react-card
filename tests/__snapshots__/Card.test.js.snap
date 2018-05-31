@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Card Should renders without problems 1`] = `
+<CardWrap
+  theme={
+    Object {
+      "background": "#FFFFFF",
+      "paddingBottom": "40px",
+      "paddingLeft": "32px",
+      "paddingRight": "32px",
+      "paddingTop": "32px",
+    }
+  }
+>
+  This is card.
+</CardWrap>
+`;
