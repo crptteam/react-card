@@ -24,13 +24,14 @@
     "react": "16.x"
   },
   "devDependencies": {
-    "nwb": "0.21.x",
-    "react": "^16.4.0",
-    "react-dom": "^16.4.0",
     "babel-jest": "^23.0.1",
     "enzyme": "^3.3.0",
     "enzyme-adapter-react-16": "^1.1.1",
     "enzyme-to-json": "^3.3.4",
+    "jest": "^23.0.1",
+    "nwb": "0.21.x",
+    "react": "^16.4.0",
+    "react-dom": "^16.4.0",
     "react-test-renderer": "^16.4.0",
     "babel-cli": "^6.26.0",
     "babel-core": "^6.26.3",
@@ -48,7 +49,7 @@
     "babel-preset-es2015": "^6.24.1",
     "babel-preset-react": "^6.24.1",
     "babel-preset-stage-3": "^6.24.1"
-  },
+  },,
   "author": "",
   "homepage": "",
   "license": "MIT",
