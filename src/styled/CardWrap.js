@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 
-import { getThemeAsPlainTextByKeys } from '../utils';
+import { getThemeAsPlainTextByKeys, innerMerge } from '../utils';
 import { defaultTheme } from '../theme/';
 
 const Elem = styled.div`
@@ -19,7 +19,14 @@ const Elem = styled.div`
 `;
 
 const CardWrap = props => {
-  const theme = getThemeAsPlainTextByKeys(props.theme || defaultTheme);
+
+  const merged = innerMerge(
+    {},
+    defaultTheme.Card,
+    props.theme && props.theme.Card ? props.theme.Card : {}
+  );
+
+  const theme = getThemeAsPlainTextByKeys(merged);
 
   return <Elem {...theme} {...props} />;
 };
