@@ -4,6 +4,7 @@ export default {
     paddingLeft: "32px",
     paddingTop: "32px",
     paddingRight: "32px",
-    paddingBottom: "40px"
+    paddingBottom: "40px",
+    boxShadow: "none"
   }
 };
