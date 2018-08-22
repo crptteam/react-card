@@ -17,6 +17,7 @@ const Elem = styled.div`
   flex-direction: column;
   margin-top: ${props => props.marginTop};
   box-shadow: ${props => props.boxShadow};
+  border-radius: ${props => props.borderRadius};
 `;
 
 const CardWrap = props => {

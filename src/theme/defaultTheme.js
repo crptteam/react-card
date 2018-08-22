@@ -5,6 +5,7 @@ export default {
     paddingTop: "32px",
     paddingRight: "32px",
     paddingBottom: "40px",
-    boxShadow: "none"
+    boxShadow: "none",
+    borderRadius: "0px"
   }
 };
