@@ -16,6 +16,7 @@ const Elem = styled.div`
   flex-grow: 1;
   flex-direction: column;
   margin-top: ${props => props.marginTop};
+  box-shadow: ${props => props.boxShadow};
 `;
 
 const CardWrap = props => {
