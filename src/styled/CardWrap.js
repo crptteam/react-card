@@ -30,7 +30,7 @@ const CardWrap = props => {
 
   const theme = getThemeAsPlainTextByKeys(merged);
 
-  return <Elem {...theme} {...props} />;
+  return <Elem {...theme} innerRef={props.onRef ? props.onRef : null} {...props} />;
 };
 
 export default CardWrap;
